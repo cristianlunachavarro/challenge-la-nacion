@@ -1,1 +1,11 @@
-body{ background: black}
+@import "./abstracts/variables";
+
+@import "./utils/utils";
+
+@import "./components/subNavBar";
+@import "./components/navBar";
+@import "./components/footer";
+
+
+
+

@@ -1,0 +1,12 @@
+.headline {
+  display: flex;
+  flex-direction: row;
+
+  &__left {
+    flex-grow: 3;
+    .headline__article {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}

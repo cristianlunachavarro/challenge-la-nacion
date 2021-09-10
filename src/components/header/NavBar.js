@@ -23,13 +23,13 @@ const NavBar = () => {
                 <img src={nacionLogo} className={'nav-bar__logo'} alt={'nacionLogo'}/>
             </div>
             <div className={'utils__flex-row'}>
-                <div className={'nav-bar__boton nav-bar__right'}>
+                <div className={'nav-bar__boton nav-bar__right nav-bar__boton-l'}>
                     <boton>
                         {'SUSCRIBITE'}
                     </boton>
-                    <img src={searchIcon} className={'nav-bar__icons utils__display'} alt={'searchIcon'}/>
+                    <img src={searchIcon} className={'nav-bar__icons utils__display-768'} alt={'searchIcon'}/>
                 </div>
-                <div className={'nav-bar__boton nav-bar__right utils__display-none-768'}>
+                <div className={'nav-bar__boton nav-bar__right utils__display-none-768 nav-bar__boton-r'}>
                     <boton>
                         {'INSCRIBITE'}
                     </boton>

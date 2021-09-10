@@ -1,0 +1,165 @@
+.format1 {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: 4rem auto;
+
+  @media (max-width: $breakpoint-mobile) {
+    width: 100%;
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 95%;
+  }
+
+  &__left {
+    flex-grow: 3;
+    width: 60%;
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+    }
+
+    .format1__article {
+      display: flex;
+      flex-direction: column;
+      @media (max-width: $breakpoint-mobile) {
+        flex-direction: column-reverse;
+        margin: 0 0 1rem 0;
+      }
+
+      &__title {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 32px;
+        margin: 0.5rem 0;
+        @media (max-width: $breakpoint-mobile) {
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 28px;
+
+        }
+      }
+
+      &__bajada2 {
+        display: none;
+        @media (max-width: $breakpoint-mobile) {
+          display: inline;
+          font-family: Arial, serif;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 27px;
+        }
+      }
+
+      &__bajada {
+        font-family: Arial, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 0.5rem 0;
+
+        @media (max-width: $breakpoint-mobile) {
+          display: none;
+        }
+      }
+
+      &__author {
+        font-family: Arial, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        margin: 0.5rem 0;
+
+        @media (max-width: $breakpoint-mobile) {
+          display: none;
+        }
+      }
+
+      &__author2 {
+        display: none;
+        @media (max-width: $breakpoint-mobile) {
+          display: inline;
+          font-family: Arial, serif;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 16px;
+          margin: 1rem 0;
+        }
+      }
+
+      &__image {
+        width: 100%;
+        margin: 0;
+      }
+    }
+  }
+
+  &__divider {
+    border-left: 2px solid $grey-1;
+    position: relative;
+    margin: 0 3rem;
+  }
+
+  &__right {
+    flex-grow: 1;
+    width: 30%;
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+    }
+
+    .format1__article {
+      display: flex;
+      flex-direction: column-reverse;
+      @media (max-width: $breakpoint-mobile) {
+        margin: 0 0 1rem 0
+      }
+
+      &__title {
+        font-family: 'Roboto Slab', serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 26px;
+        margin: 0.25rem 0;
+
+      }
+
+      &__bajada2 {
+        display: none;
+      }
+
+      &__bajada {
+        display: none;
+      }
+
+      &__author {
+        display: none
+      }
+
+      &__author2 {
+        font-family: Arial, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 1rem 0;
+      }
+
+      &__image {
+        width: 100%;
+        margin: 0.25rem 0;
+      }
+    }
+  }
+}

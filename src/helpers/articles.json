@@ -1,12 +1,100 @@
-[
-  {
-    "volanta": "",
-    "titulo": "",
-    "bajada": "",
-    "imagen": "",
-    "marquesina": "",
-    "autor": "",
-    "imagenAutor": "",
-    "url": ""
-  }
-]
+{
+  "articles": [
+    {
+      "id":  1,
+      "titular": true,
+      "volanta": "",
+      "titulo": "Las mujeres latinoamericanas alcanzaron su récord de medallas olímpicas en Tokio ",
+      "bajada": "Las deportistas se han llevado 24: seis de oro, 11 de plata y siete de bronce. Además, los Juegos de Tokio están entre los de mayor proporción de victorias femeninas, casi el 40% sobre el total que ostenta la región",
+      "imagen": "https://phantom-marca.unidadeditorial.es/f094c17b9324e811118bee2d42a1ff6a/resize/1320/f/jpg/assets/multimedia/imagenes/2021/03/18/16160863643428.jpg",
+      "marquesina": "",
+      "autor": "Camilo Rincon",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  2,
+      "titular": false,
+      "volanta": "",
+      "titulo": "Argentina - Bolivia. El momento que Juan Musso esperó toda su vida: la vida del arquero que se nutre del yoga y creció lento y seguro",
+      "bajada": "El ex jugador de Racing tuvo paciencia y prefirió esperar donde estaba que ser suplente en clubes más poderosos; ahora tiene su primera oportunidad desde el inicio de un partido en la selección.",
+      "imagen": "https://resizer.glanacion.com/resizer/3Kogozmap-tXQHbvfmnxWzG88XQ=/879x586/filters:quality(80):focal(1220x766:1230x756)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/RSRI22ZKN5DYDI3J4OPFXF6SA4.JPG",
+      "marquesina": "Juan Musso, arquero de la selección argentina, debutará como titular ante Bolivia, este jueves",
+      "autor": "Nicolás Zuberman",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  3,
+      "titular": false,
+      "volanta": "",
+      "titulo": "La esposa de Michael Schumacher contó qué le dijo él antes del accidente que dejó al expiloto de Fórmula 1 en coma",
+      "bajada": "Antes del estreno del documental “Schumacher”, Corinna Betsch reveló detalles del infortunio en los Alpes franceses; el alemán quedó severos daños cerebrales y continúa con su recuperación",
+      "imagen": "https://resizer.glanacion.com/resizer/zizBCrjGhWAmtQX6pHlkoE2vrf4=/879x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/L7UQ2GSJHZA6RCCE4BP7FYDLGE.jpg",
+      "marquesina": "Michael Schumacher junto a su mujer y a sus hijos que forman parte del documental que estrenará a mediados de septiembre",
+      "autor": "Andrea Ramirez",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  4,
+      "titular": false,
+      "volanta": "",
+      "titulo": "Diego Placente: corre con los pies, sin la pelota. De esta manera busca sentirse activo para afrontar nuevos desafios",
+      "bajada": "El ex futbolista descubrió que correr le permite sentirse activo y con nuevos desafíos; “ya no puedo concentrarme cuando juego al fútbol; en cambio, el running me da la concentración para esforzarme y por llegar a la meta”, sostiene",
+      "imagen": "https://resizer.glanacion.com/resizer/EPRP9KytQkPKXfjPAggQEJBMf-A=/879x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/ISAW236ESNFV3MYUZVZNBE65JI.jpg",
+      "marquesina": "",
+      "autor": "Gonzalo Cornago",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  5,
+      "titular": false,
+      "volanta": "",
+      "titulo": "Pedro Sánchez clausura el homenaje este jueves a los olímpicos y paralímpicos en Tokyo 2020",
+      "bajada": "El presidente del Gobierno, Pedro Sánchez, preside este jueves (16:30 horas) en el Consejo Superior de Deportes (CSD) el homenaje a los deportistas olímpicos y paralímpicos que han disputado este verano los Juegos de Tokyo 2020.\n\nEl acto será clausurado por el presidente del Ejecutivo y contará con la presencia del ministro de Cultura y Deporte, Miquel Iceta, y del presidente del CSD, José Manuel Franco.\n\nLa delegación española logró 17 medallas, 3 oros, 8 platas y 6 bronces, en los Juegos Olímpicos; y un total de 36, 9 oros, 15 platas y 12 bronces, en los Paralímpicos, que concluyeron el pasado domingo 5 de septiembre en la capital nipona.",
+      "imagen": "https://resizer.glanacion.com/resizer/a4TvsWTesxfOvyOxzq3U5ecMDm4=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/37TRW4S24NDAVECYENPNB2IIKE",
+      "marquesina": "",
+      "autor": "Andrea Ramirez",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  6,
+      "titular": false,
+      "volanta": "",
+      "titulo": "Eliminatorias: Colombia le ganó a Chile un partido vital y mantiene sus chances de seguir en carrera",
+      "bajada": "Colombia consiguió una valiosa victoria para cerrar la triple fecha de septiembre por las eliminatorias sudamericana al Mundial de Qatar 2022 al derrotar por 3-1 a Chile, ante su público en la caribeña Barranquilla.",
+      "imagen": "https://resizer.glanacion.com/resizer/eDsy6bGI1QQa5Yx01vFigcMtu9E=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/LOXMBFJY7ZAXBA3LKPCM5VKEFU.jpg",
+      "marquesina": "US Open: la británica Emma Raducanu superó a la suiza Belinda Bencic y avanzó, por primera vez, a las semifinales de un Grand Slam.",
+      "autor": "Sebastián Torok",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  7,
+      "titular": false,
+      "volanta": "",
+      "titulo": "NHL regresará a Juegos Olímpicos, si la pandemia no empeora",
+      "bajada": "La NHL regresará a los Juegos Olímpicos de Invierno en Beijing este invierno después de llegar a un acuerdo con las autoridades internacionales, si bien la liga y sus jugadores tienen la posibilidad de retirarse en caso de que la pandemia del coronavirus genere circunstancias adversas.",
+      "imagen": "https://resizer.glanacion.com/resizer/hJBozXagMUhErFS0pGy_q3BiphA=/879x586/smart/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/YM4YZPRQ55ETBAPCRR5TJ2JQ3Y",
+      "marquesina": "En imagen de archivo del 23 de febrero de 2014, el delantero canadiense Sidney Crosby, izquierda, anota un gol al portero sueco Henrik Lundqvist en el segundo periodo de la final de hockey sobre hielo de hombres en los Juegos Olímpicos de Invierno 2014 en Sochi, Rusia. (AP Foto/Julio Cortez, Pool, archivo)",
+      "autor": "Andrea Ramirez",
+      "imagenAutor": "",
+      "url": ""
+    },
+    {
+      "id":  8,
+      "titular": false,
+      "volanta": "",
+      "titulo": "Los 100 personajes del año en el fútbol: los que escribieron la historia en 2016",
+      "bajada": "Son 100 personajes en el año de las mil y una en el fútbol argentino. Aquí y allá. En las canchas y en los escritorios. Son aquellos que la rompieron, aquellos que causaron sensación y también los que fracasaron. Los obvios, como Gallardo o Tevez, Messi y Bauza, y los que sorprendieron. Los que cumplieron con lo que prometían y los que dejaron que desear. Los que se destacaron para bien o para mal; los que arrancaron el aplauso y los que hicieron saltar las lágrimas. Futbolistas, entrenadores, dirigentes, gente del fútbol, son los que llamaron la atención a lo largo de 365 días en los que ocurrió de todo.",
+      "imagen": "https://resizer.glanacion.com/resizer/jf6Kj2tcmQ_o4sp-TXUxx7kxSlI=/879x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MZ7SALONNRHJRHTUKBJDPKTCJY.jpg",
+      "marquesina": "En imagen de archivo del 23 de febrero de 2014, el delantero canadiense Sidney Crosby, izquierda, anota un gol al portero sueco Henrik Lundqvist en el segundo periodo de la final de hockey sobre hielo de hombres en los Juegos Olímpicos de Invierno 2014 en Sochi, Rusia. (AP Foto/Julio Cortez, Pool, archivo)",
+      "autor": "Cristian Chavarro",
+      "imagenAutor": "",
+      "url": ""
+    }
+  ]
+}

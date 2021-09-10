@@ -1,0 +1,123 @@
+.format2 {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  margin: 4rem auto;
+
+  @media (max-width: $breakpoint-mobile) {
+    width: 100%;
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+
+  @media (max-width: $breakpoint-tablet) {
+    width: 95%;
+  }
+
+  &__left {
+    width: 45%;
+    margin-right: 5%;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+    }
+
+    .format2__article {
+      display: flex;
+      flex-direction: column-reverse;
+
+      &__title {
+        font-family: "Roboto Slab", serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 32px;
+        margin: 0.5rem 0;
+      }
+
+      &__bajada2 {
+        display: none;
+      }
+
+      &__bajada {
+        display: none;
+      }
+
+      &__author {
+        display: none;
+      }
+
+      &__author2 {
+        font-family: Arial, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 0.5rem 0;
+        @media (max-width: $breakpoint-mobile) {
+          margin: 1rem 0;
+        }
+      }
+
+      &__image {
+        width: 100%;
+      }
+    }
+  }
+
+  &__right {
+    width: 45%;
+    margin-left: 5%;
+
+    @media (max-width: $breakpoint-mobile) {
+      width: 100%;
+      margin: 0;
+    }
+
+    .format2__article {
+      display: flex;
+      flex-direction: column-reverse;
+
+      &__title {
+        font-family: "Roboto Slab", serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 32px;
+        margin: 0.5rem 0;
+      }
+
+      &__bajada2 {
+        display: none;
+      }
+
+      &__bajada {
+        display: none;
+      }
+
+      &__author {
+        display: none;
+      }
+
+      &__author2 {
+        font-family: Arial, serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin: 0.5rem 0;
+        @media (max-width: $breakpoint-mobile) {
+          margin: 1rem 0;
+        }
+      }
+
+      &__image {
+        width: 100%;
+      }
+    }
+  }
+}
